@@ -80,12 +80,38 @@ function Home() {
           </div>
         </section>
       </section>
+
+
       {/* pb */}
-      <section className='pab  ' id='about'>
-        <h1>About</h1><br />
-        <p className='ml-1 px-2 text-center mb-5'>“Fitness is not about being better than someone else, it’s about being better than you used to be. Here you’ll find simple exercises and diet tips to keep your body and mind strong.”</p>
+      <section id="about" className="py-16 px-6 bg-gradient-to-r from-green-50 to-blue-50">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 items-center">
+
+
+          <div className="text-center md:text-left">
+            <h1 className="text-4xl font-bold text-green-800 mb-4">About Us</h1>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              Fitness is not about competition — it’s about becoming the best version of yourself.
+              At <span className="font-semibold text-green-700">NutriFlex</span>, we believe in a balanced
+              approach that strengthens both your body and mind.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              Whether you're just starting your journey or looking to push your limits,
+              we provide simple exercises, healthy diet tips, and expert guidance to
+              keep you motivated and on track every day.
+            </p>
+
+
+            <blockquote className="text-xl italic font-semibold text-blue-700 bg-white rounded-xl shadow-md p-4">
+              “Your only limit is you. Stay consistent, stay strong, and results will follow.”
+            </blockquote>
+
+
+          </div>
+        </div>
       </section>
-      <hr />
+
+      <hr className="my-10" />
+
       <section id="contact" className=" py-12 px-6">
         <div className="max-w-3xl mx-auto text-center">
           <h1 className="text-4xl font-bold text-green-800 mb-6">Contact Us</h1>
@@ -103,60 +129,46 @@ function Home() {
           </div>
         </div>
       </section>
-
-
       <hr />
 
-     <section className="services mt-12 px-6 py-12 bg-gradient-to-r from-blue-50 to-indigo-100" id="swer">
-  <h1 className="text-4xl font-bold text-center text-blue-800 mb-10">Our Services</h1>
+      <section className="services mt-12 px-6 py-12 bg-gradient-to-r from-blue-50 to-indigo-100" id="swer">
+        <h1 className="text-4xl font-bold text-center text-blue-800 mb-10">Our Services</h1>
 
-  <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 max-w-6xl mx-auto">
-    {/* Service Card 1 */}
-    <div className="bg-white shadow-xl rounded-2xl p-8 text-center transition-transform transform hover:-translate-y-2 hover:shadow-2xl">
-      <div className="flex justify-center mb-4">
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png"
-          alt="Diet Icon"
-          className="w-16 h-16"
-        />
-      </div>
-      <h2 className="text-xl font-semibold text-blue-700">Balanced Diet Chart</h2>
-      <p className="text-gray-600 mt-3">
-        Get personalized diet plans to maintain a healthy lifestyle and balanced nutrition.
-      </p>
-    </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10 max-w-6xl mx-auto">
 
-    {/* Service Card 2 */}
-    <div className="bg-white shadow-xl rounded-2xl p-8 text-center transition-transform transform hover:-translate-y-2 hover:shadow-2xl">
-      <div className="flex justify-center mb-4">
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/2964/2964514.png"
-          alt="Exercise Icon"
-          className="w-16 h-16"
-        />
-      </div>
-      <h2 className="text-xl font-semibold text-blue-700">Weekly Exercise Plans</h2>
-      <p className="text-gray-600 mt-3">
-        Stay fit with easy-to-follow workout schedules designed by our experts.
-      </p>
-    </div>
+          <div className="bg-white shadow-xl rounded-2xl p-8 text-center ">
+            <div className="flex justify-center mb-4">
 
-    {/* Service Card 3 */}
-    <div className="bg-white shadow-xl rounded-2xl p-8 text-center transition-transform transform hover:-translate-y-2 hover:shadow-2xl">
-      <div className="flex justify-center mb-4">
-        <img
-          src="https://cdn-icons-png.flaticon.com/512/3135/3135715.png"
-          alt="Training Icon"
-          className="w-16 h-16"
-        />
-      </div>
-      <h2 className="text-xl font-semibold text-blue-700">Perfect Training Ideas</h2>
-      <p className="text-gray-600 mt-3">
-        Achieve your fitness goals with structured training and expert guidance.
-      </p>
-    </div>
-  </div>
-</section>
+            </div>
+            <h2 className="text-xl font-semibold text-blue-700">Balanced Diet Chart</h2>
+            <p className="text-gray-600 mt-3">
+              Get personalized diet plans to maintain a healthy lifestyle and balanced nutrition.
+            </p>
+          </div>
+
+
+          <div className="bg-white shadow-xl rounded-2xl p-8 text-center ">
+            <div className="flex justify-center mb-4">
+
+            </div>
+            <h2 className="text-xl font-semibold text-blue-700">Weekly Exercise Plans</h2>
+            <p className="text-gray-600 mt-3">
+              Stay fit with easy-to-follow workout schedules designed by our experts.
+            </p>
+          </div>
+
+          {/* Service Card 3 */}
+          <div className="bg-white shadow-xl rounded-2xl p-8 text-center ">
+            <div className="flex justify-center mb-4">
+
+            </div>
+            <h2 className="text-xl font-semibold text-blue-700">Perfect Training Ideas</h2>
+            <p className="text-gray-600 mt-3">
+              Achieve your fitness goals with structured training and expert guidance.
+            </p>
+          </div>
+        </div>
+      </section>
 
     </>
   )
