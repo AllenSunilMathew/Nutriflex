@@ -1,5 +1,10 @@
 *{
   font-family: "Roboto", sans-serif;
+  
+  
+  background-position: fixed;
+  background-repeat: no-repeat;
+  background-image: url('https://www.freepik.com/free-vector/motivational-sport-lettering-background-with-photo_4926884.htm#fromView=keyword&page=1&position=0&uuid=60a5ee03-a52a-4566-b53b-ccab15e38773&query=8k+Fitness');
 }
 h1{
   justify-content: center;

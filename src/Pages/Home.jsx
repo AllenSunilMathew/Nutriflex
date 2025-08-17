@@ -5,24 +5,45 @@ import { Link } from 'react-router-dom'
 function Home() {
   return (
     <>
-      <section className='pnav ' id='home' style={{ width: '100%', overflowX: 'hidden', height: '450px', backgroundImage: "url('https://images.pexels.com/photos/2780762/pexels-photo-2780762.jpeg')", backgroundRepeat: 'no-repeat', backgroundSize: 'cover', backgroundAttachment: 'fixed' }}>
-        <h1 className='text-light'>Stay Fit, Stay Healthy</h1> <br />
-        <h5 className='ml-1 px-2 text-center mb-5 text-light'>Simple tips to improve your health and lifestyle</h5>
-      </section>
+     
+
+<section
+  id="home"
+  className="relative  mx-auto flex flex-col items-center justify-center text-center px-2 
+             min-h-[800px] sm:min-h-[600px] md:min-h-[850px] lg:max-h-screen"
+  
+
+ 
+>
+ 
+
+  {/* Content */}
+  <div className="relative z-10 py-20 sm:py-28 md:py-40 lg:py-48">
+    <h1 className="text-2xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-dark mb-6">
+      Stay Fit, Stay Healthy
+    </h1>
+    <h5 className="text-sm sm:text-lg md:text-xl lg:text-2xl text-dark max-w-2xl mx-auto">
+     👇 Simple tips to improve your health and lifestyle.👇 
+    </h5>
+  </div>
+</section>
+
 
 
       <hr />
 
-      <section id='part4' className='tesimonial container-fluid p-5'>
-        <h1 className='text-center'>Explore More</h1>
+      <section id='part4' className='tesimonial container-fluid p-3'>
+        <h1 className='text-center'>Deals</h1>
         <div className='row'>
           <div className='tesimonial-content col-12 col-md-6 d-flex align-items-center justify-content-center flex-column '>
 
             <div>
               <h4>Trusted Words</h4>
 
-              <p>Fitness is like a relationship; you can't cheat and expect it to work.“Good health is the foundation of a happy life. Staying active through simple exercises keeps your body strong, while eating nutritious food fuels your energy and protects you from illness. Fitness is not about perfection — it’s about progress. Small daily habits like moving your body, staying hydrated, and choosing healthy meals can create big changes over time. Take care of your body, because it’s the only place you have to live.”</p>
-            </div>
+<strong>
+                <p>Fitness is like a relationship; you can't cheat and expect it to work.“Good health is the foundation of a happy life. Staying active through simple exercises keeps your body strong, while eating nutritious food fuels your energy and protects you from illness. Fitness is not about perfection — it’s about progress. Small daily habits like moving your body, staying hydrated, and choosing healthy meals can create big changes over time. Take care of your body, because it’s the only place you have to live.”</p>
+  
+</strong>            </div>
 
           </div>
           <div className='tesimonial-image  col-12 col-md-6'>
