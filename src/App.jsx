@@ -8,7 +8,7 @@ import Exercises from './Pages/Exercises'
 import Home from './Pages/Home'
 
 
-import './App.css';
+import './index.css';
 
 
 
